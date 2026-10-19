@@ -1,0 +1,5 @@
+[
+  {"file":"01-rule-editor.png","caption":"The Rules window editing \"Strip tracking links\", with the live Test area showing utm_source and fbclid removed from a pasted URL.","alt":"CopyRuleFilter Rules window with rule list and editor showing before/after test"},
+  {"file":"02-settings.png","caption":"Settings for launch at login, transform notifications, and the list of apps whose copies are never touched.","alt":"CopyRuleFilter Settings window"},
+  {"file":"03-on-demand-rule.png","caption":"An on-demand \"Quote as Markdown\" rule that prefixes every line with \"> \", previewed live in the Test area.","alt":"CopyRuleFilter on-demand Quote as Markdown rule with wrap-each-line action"}
+]

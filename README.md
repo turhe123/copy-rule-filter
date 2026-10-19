@@ -1,5 +1,7 @@
 # CopyRuleFilter
 
+**🌐 Website:** [turhe123.github.io/copy-rule-filter](https://turhe123.github.io/copy-rule-filter/)
+
 Automatic rules that clean or transform whatever you copy, like stripping tracking links or forcing plain text.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -44,7 +46,17 @@ Rule-based clipboard filters are the reason many people pay for tools in the *Cl
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-rule-editor.png" alt="CopyRuleFilter Rules window with rule list and editor showing before/after test" width="720"></p>
+
+<p align="center"><em>The Rules window editing &quot;Strip tracking links&quot;, with the live Test area showing utm_source and fbclid removed from a pasted URL.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="CopyRuleFilter Settings window" width="560"></p>
+
+<p align="center"><em>Settings for launch at login, transform notifications, and the list of apps whose copies are never touched.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-on-demand-rule.png" alt="CopyRuleFilter on-demand Quote as Markdown rule with wrap-each-line action" width="560"></p>
+
+<p align="center"><em>An on-demand &quot;Quote as Markdown&quot; rule that prefixes every line with &quot; &quot;, previewed live in the Test area.</em></p>
 
 ## Install
 

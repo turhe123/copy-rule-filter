@@ -1,0 +1,60 @@
+{
+  "seo_title": "Clipboard rules engine for macOS",
+  "seo_description": "CopyRuleFilter is a free, open-source macOS menu bar app that cleans what you copy: strip tracking links, force plain text, and more, with rules you control.",
+  "hero_title_line1": "Copy it once.",
+  "hero_title_accent": "Paste it clean.",
+  "hero_sub": "Write rules that clean or transform whatever you copy, like stripping tracking links or forcing plain text. It runs from the menu bar, automatically or on demand.",
+  "features_title": "A rules engine for your clipboard.",
+  "features_sub": "Combine a condition with ordered actions, then let the rule run on every copy or pick it from the menu when you need it.",
+  "features": [
+    {
+      "icon": "sliders",
+      "title": "Conditions and ordered actions",
+      "desc": "Match on text, URLs, a regex, or the source app, then chain actions such as trim whitespace, change case, strip a prefix, or regex find and replace."
+    },
+    {
+      "icon": "clipboard",
+      "title": "Automatic or on demand",
+      "desc": "Automatic rules run on every copy. On-demand rules appear in the menu bar and transform the current clipboard when you choose them."
+    },
+    {
+      "icon": "eye",
+      "title": "Live Test area",
+      "desc": "Paste sample text into the editor and see the before and after result update as you change the rule."
+    },
+    {
+      "icon": "shield",
+      "title": "Built-in safety checks",
+      "desc": "Concealed, transient, and 1Password content is skipped, as are file copies and clipboards over 2 MB. A rule that would produce empty output leaves your clipboard alone."
+    },
+    {
+      "icon": "text",
+      "title": "Six starter rules",
+      "desc": "Start from Plain text for chosen apps, Strip tracking links, Tidy whitespace, Straight quotes, Title Case, and Quote as Markdown."
+    },
+    {
+      "icon": "download",
+      "title": "Import and export as JSON",
+      "desc": "Share rules as JSON files. A malformed or newer-format file shows an error and never overwrites the rules you already have."
+    }
+  ],
+  "permissions_step": "No special permissions are required; notifications and launch at login are optional and only requested if you turn them on in Settings.",
+  "faq": [
+    {
+      "q": "Is CopyRuleFilter really free and open source?",
+      "a": "Yes. It is released under the MIT license, with no accounts, servers, or analytics. If it saves you time, you can support development through the Support button, but nothing is locked behind it."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None beyond reading and writing the system pasteboard, so there is no Accessibility, Screen Recording, or Microphone prompt. Notifications are requested only if you enable them, and Launch at login is optional."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Everything stays on your Mac. Rules are saved as versioned JSON at ~/Library/Application Support/CopyRuleFilter/rules.json. If that file cannot be read, it is kept as rules.corrupt.json and the defaults are loaded."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to run it, or build it yourself from source with Xcode."
+    }
+  ]
+}
