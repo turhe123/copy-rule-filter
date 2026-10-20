@@ -91,6 +91,17 @@ CopyRuleFilter only reads and writes the system pasteboard, so it needs **no** A
 - **Notifications (optional):** requested only when you turn on "Show notification after a transform", and when an on-demand rule reports its result.
 - **Login item (optional):** used only if you enable "Launch at login" (via `SMAppService`).
 
+## Built with AI
+
+CopyRuleFilter was written by [Claude Code](https://claude.com/claude-code) inside an automated pipeline, from a plain-English spec. No code, binaries or assets from any commercial app were used; it is a clean-room reimplementation of a feature set, not a copy.
+
+What that means in practice:
+
+- The full source is in this repo under the MIT license. Read it before you run it.
+- No network calls, no analytics, no third-party dependencies. Only Apple frameworks.
+- Ad-hoc signed and not notarized, which is why Gatekeeper warns on first launch.
+- It has had less human review than a hand-written app. Bug reports and pull requests are welcome.
+
 ## Support ❤️
 
 CopyRuleFilter is free and open source. If it saves you time, you can support its development:
